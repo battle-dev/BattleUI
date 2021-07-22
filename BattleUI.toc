@@ -1,11 +1,15 @@
 ## Interface: 20501
-## Title: |cff00fe00LibBattle|r
-## Notes: A library of helper functions for World of Warcraft addons
+## Title: |cff00fe00BattleUI|r
+## Notes: A World of Warcraft UI Addon
 ## Author: Battle
 ## Version: v1.0.0
 
-# Libraries
+# LibStub
 Libs\LibStub\LibStub.lua
 
-# Library Items
-LibBattle.lua
+# LibBattle
+Libs\LibBattle\LibBattle.lua
+Libs\LibBattle\Modules\Frames.lua
+
+# BattleUI
+BattleUI.lua
